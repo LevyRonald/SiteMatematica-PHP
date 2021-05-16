@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(homeFundo.PNG);
+	background-size: cover;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #4d4d4d;
+}
+
+nav > a{
+	text-decoration: none;
+	color: #f1f1f1;
+	font-weight: 700;
+	font-size: 28px;
+	font-family: pacifico, serif;
+}
+
+div form{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%
+}
+
+div form p{
+	text-align: center;
+	width: 100%;
+}
+
+div form p a{
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #f1f1f1;
+}
+div form p a:hover{
+	color: #1e90ff;
+	background-color: #fffafa;
+	border-radius: 3px;
+	transition: .5s;
+}
+
+
+.cont{
+	background:#00000070;
+	width:550px;
+	height: 450px;
+	margin: auto;
+	border-radius: 10px;
+}
+
+form{
+	font-size: 16px;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0px 10px 10px 10px;
+}
+
+h1{
+	color:#fff;
+	text-align: center;
+}
+
+.sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px 20px;
+	background-color: #4d4d4d;
+	color: #f1f1f1;
+}
+
+.sobre p{
+	margin-bottom: 2.5em;
+	max-width: 1000px;
+}
+
+.sobre .botao{
+	background-color: #00000070;
+	color: #4d4d4d;
+}
+
+input, textarea{
+	width: 470px;
+	padding: 10px;
+}
+
+.enviar input{
+	background: #069;
+	height: 40px;
+	width: 150px;
+	font-weight: bold;
+	border-radius: 5px;
+	border:1px solid;
+	color: white;
+	cursor: pointer;
+}
+
+.enviar input:hover{
+	background: #078;
+}
+
+<textarea{
+	width: 470px;
+	height: 120px;
+	line-height: 20px;
+}
+
